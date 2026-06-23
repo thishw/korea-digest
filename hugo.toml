@@ -1,0 +1,24 @@
+baseURL = "https://example.com/"
+title = "Korea Digest"
+defaultContentLanguage = "ko"
+
+[taxonomies]
+  category = "categories"
+  tag      = "tags"
+
+[[menu.main]]
+  name   = "홈"
+  url    = "/"
+  weight = 1
+
+[[menu.main]]
+  name   = "글"
+  url    = "/posts/"
+  weight = 2
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[module]
+  [[module.imports]]
+    path = "github.com/thishw/synapse-hugo-shared"
