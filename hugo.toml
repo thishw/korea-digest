@@ -1,6 +1,21 @@
 baseURL = "https://thishw.github.io/korea-digest/"
 title = "Korea Digest"
 defaultContentLanguage = "ko"
+enableRobotsTXT = true
+
+[params]
+  site_key       = "korea_digest"
+  tier           = "B"
+  description    = "한국 이슈를 한눈에 — 큐레이션 다이제스트"
+  og_site_name   = "Korea Digest"
+  og_locale      = "ko_KR"
+  og_image       = ""
+  gtm_id         = ""
+  verify_google  = ""
+  verify_naver   = ""
+  verify_bing    = ""
+  adsense_pub_id = ""
+  daum_verification = ""
 
 [taxonomies]
   category = "categories"
