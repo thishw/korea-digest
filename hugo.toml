@@ -3,6 +3,10 @@ title = "Korea Digest"
 defaultContentLanguage = "ko"
 enableRobotsTXT = true
 
+# 홈에서 검색 색인(index.json) 생성 — 공통 Module의 클라이언트 검색이 사용
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
 [params]
   site_key       = "korea_digest"
   tier           = "B"
