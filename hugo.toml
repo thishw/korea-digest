@@ -5,9 +5,16 @@ enableRobotsTXT = true
 
 # 홈에서 검색 색인(index.json) 생성 — 공통 Module의 클라이언트 검색이 사용
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+  home = ["HTML", "RSS", "JSON", "llms"]
+
+# llms.txt — LLM용 사이트 인덱스 (GEO 실험)
+[outputFormats.llms]
+  mediaType = "text/plain"
+  baseName  = "llms"
+  isPlainText = true
 
 [params]
+  author         = "HW"
   site_key       = "korea_digest"
   tier           = "B"
   description    = "한국 이슈를 한눈에 — 큐레이션 다이제스트"
